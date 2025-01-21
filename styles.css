@@ -1,0 +1,186 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+/* Profile Bar Styling */
+.profile-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    padding: 15px;
+    background-color: #2ecc71;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.profile-details h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.profile-details p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.profile-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #2ecc71;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.profile-button:hover {
+    background-color: #ecf0f1;
+}
+
+/* Gallery Header */
+.gallery-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+.intro-text {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #7f8c8d;
+}
+
+/* Search Bar */
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    width: 300px;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #27ae60;
+}
+
+/* Image Gallery Layout */
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.image-block {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.image-block:hover {
+    transform: scale(1.05);
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.image-block p {
+    padding: 10px;
+    font-size: 1em;
+    color: #7f8c8d;
+}
+
+/* Summary Section */
+.summary-container {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.summary-container h2 {
+    font-size: 2em;
+    color: #2c3e50;
+}
+
+.summary-container p {
+    font-size: 1.1em;
+    color: #34495e;
+}
+/* General styles for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Style for the heading (h1) */
+h1 {
+    text-align: center;
+    color: #4a90e2;
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+/* Style for the paragraph (p) */
+p {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 20px;
+    color: #555;
+}
